@@ -1,0 +1,187 @@
+.navbar {
+  background-color: #e3f2fd;
+}
+
+.navbar-brand {
+  color: #000 !important; 
+  font-size: 1.5em; 
+}
+
+.navbar-nav .nav-link {
+  color: #000 !important; 
+  margin-right: 1em; 
+}
+
+.dropdown-menu {
+  background-color: #2a84dd;
+  border: none; 
+}
+
+.dropdown-item {
+  color: #fffcfc !important; 
+}
+
+.dropdown-item:hover {
+  color: #ffc107 ; 
+  background-color: transparent; 
+}
+
+.dropdown-divider {
+  border-top: 1px solid #495057; 
+}
+
+/* Card styles */
+.card {
+  margin: 20px auto; /* Center the card and add some margin */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Maximum width */
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.card-header {
+  background-color: #343a40; /* Dark background for header */
+  color: #fff; /* White text for header */
+  border-bottom: 1px solid #6c757d; /* Grey bottom border */
+  font-weight: bold; /* Bold text */
+  border-top-left-radius: 10px; /* Rounded corners for top left */
+  border-top-right-radius: 10px; /* Rounded corners for top right */
+}
+
+.card-body {
+  padding: 20px; /* Padding inside the card body */
+}
+
+.card-title {
+  font-size: 50px; /* Larger font size for title */
+  margin-bottom: 15px; /* Space below title */
+  color: #343a40; /* Dark text color */
+}
+
+.card-text {
+  font-size: 1.2em; /* Slightly larger text size */
+  color: #6c757d; /* Grey text color */
+  margin-bottom: 20px; /* Space below text */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary blue color */
+  border: none; /* Remove border */
+  font-size: 1em; /* Standard font size */
+  padding: 10px 20px; /* Padding inside button */
+  border-radius: 5px; /* Rounded corners for button */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.course-card img {
+  width: 100%;
+  height: auto;
+}
+.course-card {
+  margin-bottom: 30px;
+}
+.teacher-name {
+  color: #ff5733; /* Customize the color as needed */
+}
+.view-all-btn {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 50px;
+}
+.contact-form {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+.contact-info {
+  padding: 30px;
+}
+.contact-info p {
+  margin: 0;
+}
+.btn-custom {
+  background-color: #ffcc66;
+  color: white;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #ffb84d;
+}
+.about-section {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+.about-title {
+  margin-bottom: 30px;
+}
+.team-section {
+  padding: 50px;
+}
+.team-member {
+  margin-bottom: 30px;
+}
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+}
+.feature-section {
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+.feature-title {
+  margin-bottom: 30px;
+}
+.carousel {
+  margin-top: 20px; /* Add some margin at the top */
+}
+.form-container {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #17a2b8;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+}
+
+td {
+  background-color: #f8f9fa;
+}

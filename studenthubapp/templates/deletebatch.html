@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Batch</title>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+</head>
+<body>
+    <h2>Are you sure you want to delete {{ batch.batch_name }}?</h2>
+    <form method="post">
+        {% csrf_token %}
+        <input type="submit" value="Delete" class="btn btn-danger">
+    </form>
+    <a href="{% url 'showbatch_url' %}" class="btn btn-secondary">Cancel</a>
+</body>
+</html>
