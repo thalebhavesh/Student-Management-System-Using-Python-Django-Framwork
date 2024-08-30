@@ -155,7 +155,7 @@ Ensure you configure the following settings in studenthub/settings.py:
 - Templates: Confirm that the TEMPLATES setting points to your templates directory.
 ## Usage
 
-- Login: Navigate to http://127.0.0.1:8000/auth/login/ and log in with your admin credentials.
+- Login: Navigate to http://127.0.0.1:8000/login/ and log in with your admin credentials.
 - Home: Access the home page to view a dashboard with quick links to manage students, batches, and attendance.
 - Manage Students: Use the "Students" link to add, edit, or delete student records.
 - Manage Batches: Use the "Batches" link to add, edit, or delete batches.
